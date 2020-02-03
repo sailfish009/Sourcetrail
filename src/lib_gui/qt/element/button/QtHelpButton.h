@@ -1,7 +1,6 @@
 #ifndef QT_HELP_BUTTON_H
 #define QT_HELP_BUTTON_H
 
-#include "QtHelpButtonInfo.h"
 #include "QtIconButton.h"
 
 class QtHelpButton: public QtIconButton
@@ -9,13 +8,14 @@ class QtHelpButton: public QtIconButton
 	Q_OBJECT
 
 public:
-	QtHelpButton(const QtHelpButtonInfo& info, QWidget* parent = nullptr);
+	QtHelpButton(const QString& helpTitle, const QString& helpText, QWidget* parent = nullptr);
 
 private slots:
 	void handleHelpPress();
 
 private:
-	QtHelpButtonInfo m_info;
+	QString m_helpTitle;
+	QString m_helpText;
 };
 
 #endif	  // QT_HELP_BUTTON_H
