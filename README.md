@@ -1,4 +1,4 @@
-# Sourcetrail
+# Sourcetrail : python <= 3.8 and miniconda3 works (windows, linux), latest python not compatible with this software !!!
 
 *__Important Note:__ This project was archived by the original autors and maintainers of Sourcetrail by the end of 2021. If you want to know more about this decision, read more on our [blog](https://web.archive.org/web/20211119200517/https://www.sourcetrail.com/blog/).*
 
